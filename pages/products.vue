@@ -79,7 +79,8 @@
               delay: 75,
             },
           }" :width="buttonWidth" :height="buttonHeight" :font-size="buttonFontSize" background-color="accentColor2">
-          {{ categoryLabels[category] }}
+          {{ category }}
+          <!-- {{ categoryLabels[category] }} --> <!-- Commented out - categoryLabels not exported -->
         </UiButton>
       </div>
     </UiSectionContainer>
@@ -92,7 +93,8 @@
 import { ref, onMounted, onUnmounted, computed } from "vue";
 import { useSiteTextStore } from '~/stores/siteText';
 import { useCRMStore } from '~/stores/crmStore';
-import { products as staticProducts, getAvailableCategories, categoryLabels } from '~/data/intake-form/products';
+import { products as staticProducts } from '~/data/intake-form/products';
+// import { getAvailableCategories, categoryLabels } from '~/data/intake-form/products'; // Commented out - not exported
 import { ProductCategory } from '~/types/intake-form/checkout';
 
 const siteTextStore = useSiteTextStore();
@@ -164,7 +166,9 @@ const availableCategories = computed(() => {
   }
   
   // Fallback to static products categories
-  return getAvailableCategories();
+  // return getAvailableCategories(); // Commented out - function not exported
+  const staticCategories = new Set(staticProducts.map(p => p.category).filter(Boolean)) as Set<ProductCategory>;
+  return Array.from(staticCategories);
 });
 
 // Helper to check if category is valid
