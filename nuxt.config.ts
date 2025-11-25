@@ -14,6 +14,10 @@ export default defineNuxtConfig({
 
   //  "@supabase/ssr": "^0.7.0",
     // "@supabase/supabase-js": "^2.57.3",
+      
+      devServer: {
+    port: 3005, // Change this to any available port you prefer
+  },
   
   // HMR configuration to prevent navigation issues
   vite: {
