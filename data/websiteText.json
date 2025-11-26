@@ -644,8 +644,8 @@
     "layout": {
       "navbar": {
         "height": {
-          "mobile": "83px",
-          "desktop": "68px"
+          "mobile": "84px",
+          "desktop": "120px"
         },
         "logo": {
           "height": {
@@ -664,6 +664,95 @@
           "height": {
             "mobile": "20px",
             "desktop": "32px"
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "/": {
+      "layout": {
+        "navbar": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "tablet": "",
+              "desktop": ""
+            }
+          }
+        },
+        "footer": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "desktop": ""
+            }
+          }
+        }
+      }
+    },
+    "/about": {
+      "layout": {
+        "navbar": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "tablet": "",
+              "desktop": ""
+            }
+          }
+        },
+        "footer": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "desktop": ""
+            }
+          }
+        }
+      }
+    },
+    "/products": {
+      "layout": {
+        "navbar": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "tablet": "",
+              "desktop": ""
+            }
+          }
+        },
+        "footer": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "desktop": ""
+            }
           }
         }
       }
