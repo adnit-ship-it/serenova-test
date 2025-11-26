@@ -644,26 +644,115 @@
     "layout": {
       "navbar": {
         "height": {
-          "mobile": "83px",
-          "desktop": "68px"
+          "mobile": "105px",
+          "desktop": "120px"
         },
         "logo": {
           "height": {
-            "mobile": "24px",
+            "mobile": "45px",
             "tablet": "28px",
-            "desktop": "28px"
+            "desktop": "50px"
           }
         }
       },
       "footer": {
         "height": {
-          "mobile": "64px",
-          "desktop": "72px"
+          "mobile": "82px",
+          "desktop": "120px"
         },
         "logo": {
           "height": {
-            "mobile": "20px",
-            "desktop": "32px"
+            "mobile": "56px",
+            "desktop": "89px"
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "/": {
+      "layout": {
+        "navbar": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "tablet": "",
+              "desktop": ""
+            }
+          }
+        },
+        "footer": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "desktop": ""
+            }
+          }
+        }
+      }
+    },
+    "/about": {
+      "layout": {
+        "navbar": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "tablet": "",
+              "desktop": ""
+            }
+          }
+        },
+        "footer": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "desktop": ""
+            }
+          }
+        }
+      }
+    },
+    "/products": {
+      "layout": {
+        "navbar": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "tablet": "",
+              "desktop": ""
+            }
+          }
+        },
+        "footer": {
+          "height": {
+            "mobile": "",
+            "desktop": ""
+          },
+          "logo": {
+            "height": {
+              "mobile": "",
+              "desktop": ""
+            }
           }
         }
       }
