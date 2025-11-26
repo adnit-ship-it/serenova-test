@@ -644,26 +644,26 @@
     "layout": {
       "navbar": {
         "height": {
-          "mobile": "84px",
+          "mobile": "105px",
           "desktop": "120px"
         },
         "logo": {
           "height": {
-            "mobile": "24px",
+            "mobile": "45px",
             "tablet": "28px",
-            "desktop": "28px"
+            "desktop": "50px"
           }
         }
       },
       "footer": {
         "height": {
-          "mobile": "64px",
-          "desktop": "72px"
+          "mobile": "82px",
+          "desktop": "120px"
         },
         "logo": {
           "height": {
-            "mobile": "20px",
-            "desktop": "32px"
+            "mobile": "56px",
+            "desktop": "89px"
           }
         }
       }
