@@ -26,7 +26,7 @@
       <!-- Logo on center-->
       <div class="flex items-center">
         <NuxtLink to="/">
-          <img src="/assets/images/brand/logo.svg" :alt="common?.accessibility?.brandLogo" class="w-auto" :style="{ height: logoHeight }" />
+          <img :src="hero?.media?.logo?.src" :alt="hero?.media?.logo?.alt || common?.accessibility?.brandLogo" class="w-auto" :style="{ height: logoHeight }" />
         </NuxtLink>
       </div>
       <div class="flex items-center gap-10">
@@ -89,6 +89,7 @@ import { useSiteTextStore } from "~/stores/siteText";
 const siteTextStore = useSiteTextStore();
 const route = useRoute();
 const common = computed(() => siteTextStore.getCommonText());
+const hero = computed(() => siteTextStore.getHomeText()?.hero);
 
 // Define the color prop with a default value of 'bg-white'
 const props = defineProps({
