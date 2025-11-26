@@ -675,25 +675,25 @@
         "navbar": {
           "height": {
             "mobile": "",
-            "desktop": ""
+            "desktop": "138px"
           },
           "logo": {
             "height": {
               "mobile": "",
               "tablet": "",
-              "desktop": ""
+              "desktop": "120px"
             }
           }
         },
         "footer": {
           "height": {
             "mobile": "",
-            "desktop": ""
+            "desktop": "120px"
           },
           "logo": {
             "height": {
               "mobile": "",
-              "desktop": ""
+              "desktop": "200px"
             }
           }
         }
