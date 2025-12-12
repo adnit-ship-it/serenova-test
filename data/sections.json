@@ -12,7 +12,7 @@
         "heading": {
           "text": "Get Pregnant (on a Budget)",
           "type": "text",
-          "color": "bodyColor",
+          "color": "accentColor1",
           "show": true
         },
         "subheading": {
