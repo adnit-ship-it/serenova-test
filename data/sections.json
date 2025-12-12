@@ -85,7 +85,7 @@
           "type": "product",
           "productId": "methylcobalamin-injection",
           "button": {
-            "text": "Buy Now",
+            "text": "Book a call",
             "type": "button",
             "color": "accentColor1",
             "show": true
