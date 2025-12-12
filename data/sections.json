@@ -286,7 +286,7 @@
           "text": "Before & After",
           "type": "text",
           "color": "bodyColor",
-          "show": true
+          "show": false
         }
       },
       {
