@@ -187,18 +187,18 @@
         "order": 1
       },
       {
-        "name": "Home Discover",
-        "component": "SectionsDiscover",
-        "props": {},
-        "show": true,
-        "order": 2
-      },
-      {
         "name": "Trusted By",
         "component": "SectionsTrustedBy",
         "props": {
           "center": true
         },
+        "show": true,
+        "order": 2
+      },
+      {
+        "name": "Home Discover",
+        "component": "SectionsDiscover",
+        "props": {},
         "show": true,
         "order": 3
       },
