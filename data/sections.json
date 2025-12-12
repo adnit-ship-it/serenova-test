@@ -64,7 +64,7 @@
     "components": [
       {
         "heading": {
-          "text": "Discover Our Products",
+          "text": "Discover Our Productsasd",
           "type": "text",
           "color": "white",
           "show": true
@@ -83,7 +83,7 @@
         },
         "productCard": {
           "type": "product",
-          "productId": "ozempic-injection",
+          "productId": "methylcobalamin-injection",
           "button": {
             "text": "Buy Now",
             "type": "button",
