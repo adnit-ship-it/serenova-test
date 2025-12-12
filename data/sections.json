@@ -36,7 +36,7 @@
         },
         "ctaButton": {
           "type": "button",
-          "text": "Take the Assessment",
+          "text": "Book a call",
           "color": "white",
           "backgroundColor": "accentColor1",
           "show": true
