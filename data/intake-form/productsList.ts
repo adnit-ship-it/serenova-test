@@ -5,6 +5,33 @@ import type { Product } from "~/types/intake-form/checkout";
 // Products are sorted by their order field when accessed.
 export const productsData: Product[] = [
   {
+    id: "newpproduct",
+    name: "Ozempic Injection edited 1",
+    category: "wellness",
+    description: "description",
+    img: "/assets/images/products/newpproduct-img.jpg",
+    thumbnail: "",
+    prices: {
+      monthly: 1000,
+      threeMonthly: 4000,
+      sixMonthly: 1000
+    },
+    productBundleIds: {
+      monthly: "123",
+      threeMonthly: "123",
+      sixMonthly: "123"
+    },
+    availability: "out_of_stock",
+    type: "oral_drops",
+    popular: false,
+    features: [
+      "new",
+      "feat"
+    ],
+    quiz: "nad-plus",
+    order: 4
+  },
+  {
     id: "a9ea1b19-ac05-4827-ad7b-5dcac1f0d700",
     name: "Compounded Semaglutide",
     description: "Same active ingredient as Ozempic®* and Wegovy®*• Price Includes Consult + Medication + Shipping • 15-20% average weight loss in clinical trials • 4 Weekly Subcutaneous Injections* If medication isn't prescribed, the tele-health consult fee is $80. Compounded medications are tailored to patients & made in licensed US facilities per a Rx from a medical professional. Important safety information",
