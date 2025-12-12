@@ -20,7 +20,7 @@ export default {
           DEFAULT: '#0471F6',
           50: 'color-mix(in srgb, #750021 50%, transparent)',
         },
-        accentColor2: '#A97585',
+        accentColor2: '#A239CA',
       },
       fontFamily: {
         // Fonts automatically loaded from designTokens.json
