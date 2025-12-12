@@ -278,14 +278,14 @@
         "name": "About Hero",
         "component": "SectionsAboutBanner",
         "props": {},
-        "show": true,
+        "show": false,
         "order": 1
       },
       {
         "name": "About Trusted By",
         "component": "SectionsTrustedBy",
         "props": {},
-        "show": true,
+        "show": false,
         "order": 2
       },
       {
