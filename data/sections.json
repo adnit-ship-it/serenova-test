@@ -315,23 +315,23 @@
           },
           {
             "image": {
-              "src": "/assets/images/before-after/3.png",
-              "alt": "After image",
-              "type": "image",
-              "stars": 5,
-              "testimonial": "This program is life-changing. Highly recommend!",
-              "name": "Michael R.",
-              "order": 3
-            }
-          },
-          {
-            "image": {
               "src": "/assets/images/image-1765552633846.jpg",
               "alt": "my success",
               "type": "image",
               "stars": 5,
               "testimonial": "Very nice !!!",
               "name": "Adnit & Art",
+              "order": 3
+            }
+          },
+          {
+            "image": {
+              "src": "/assets/images/before-after/3.png",
+              "alt": "After image",
+              "type": "image",
+              "stars": 5,
+              "testimonial": "This program is life-changing. Highly recommend!",
+              "name": "Michael R.",
               "order": 4
             }
           }
